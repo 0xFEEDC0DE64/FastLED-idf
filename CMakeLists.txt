@@ -30,6 +30,9 @@ idf_component_register(
         arduino
         esp_rom
         driver
+
+    REQUIRED_IDF_TARGETS        
+        espe32
 )
 
 target_compile_options(${COMPONENT_TARGET}
