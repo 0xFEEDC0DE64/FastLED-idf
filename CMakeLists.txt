@@ -32,7 +32,7 @@ idf_component_register(
         driver
 
     REQUIRED_IDF_TARGETS        
-        espe32
+        esp32
 )
 
 target_compile_options(${COMPONENT_TARGET}
