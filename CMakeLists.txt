@@ -27,9 +27,12 @@ idf_component_register(
     INCLUDE_DIRS
         .
     REQUIRES
-        arduino-esp32
+        arduino
         esp_rom
         driver
+
+    REQUIRED_IDF_TARGETS        
+        esp32
 )
 
 target_compile_options(${COMPONENT_TARGET}
